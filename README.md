@@ -2,7 +2,7 @@
 
 **Name:** MD TAUFIQUE HUSSAIN  |  **Roll No.:** 2025202007
 
-**GitHub:** <https://github.com/Taufiquesir/rag-baseline-vs-reranking>  |  **Report:** [`Report/LMA_A1_REPORT.pdf`](Report/LMA_A1_REPORT.pdf) (4 pages), LaTeX source: [`Report/RAG_Report.tex`](Report/RAG_Report.tex)
+**GitHub:** <https://github.com/Taufiquesir/rag-baseline-vs-reranking>  |  **Report:** [`Report/LMA_A1_REPORT.pdf`](Report/LMA_A1_REPORT.pdf) (4 pages), LaTeX source: [`Report/LMA_A1_REPORT.tex`](Report/LMA_A1_REPORT.tex)
 
 This repository contains the code for LMA Assignment 1. It builds a small **Retrieval-Augmented Generation (RAG)** system over one long technical PDF and compares two ways of choosing the text that is given to the LLM:
 
@@ -274,7 +274,7 @@ README.md                         this file
 requirements.txt                  Python dependencies
 Report/
   LMA_A1_REPORT.pdf               the 4 page report (PDF)
-  RAG_Report.tex                  the same report (LaTeX source)
+  LMA_A1_REPORT.tex               the same report (LaTeX source)
 data/
   NIST_SP_800-63B-4.pdf           the document
 results/                          written by the notebook
