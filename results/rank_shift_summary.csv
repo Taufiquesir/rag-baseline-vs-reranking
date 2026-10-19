@@ -1,0 +1,12 @@
+#,category,query,gold_chunk(s),baseline_rank,rerank_rank,gold_in_P1_context,gold_in_P2_context
+1,Exceptions & corner cases,When must a user be forced to change their password?,"[46, 47]",#5,#1,False,True
+2,Exceptions & corner cases,Is encryption required for one-time codes sent by SMS?,[69],#10,#1,False,True
+3,Exceptions & corner cases,Can passkeys that sync across devices be used at AAL3?,[30],#7,#3,False,True
+4,Negation & constraints,Do users have to change their passwords every 90 days?,"[46, 47]",#5,#1,False,True
+5,Negation & constraints,Does sending a new OTP reset the failed attempt counter?,[77],#5,#1,False,True
+6,Keyword trap / distractor,What is the reauthentication timeout at AAL1?,[20],#6,#1,False,True
+7,Keyword trap / distractor,What is the inactivity timeout at AAL3?,[31],#4,#1,False,True
+8,Other: synonym / buried chunk,Is the use of SMS for authentication restricted?,"[143, 144]",#4,#1,False,True
+9,Counter-example: re-ranking hurts,Can a fingerprint alone be used to log in?,[121],#3,#7,True,False
+10,"Counter-example: order changes, still in Top 3",What is the inactivity timeout at AAL2?,[25],#2,#3,True,True
+11,Counter-example: recall ceiling (gold not in Top 10),Can email be used to send one-time login codes?,[69],not in Top-10,not in Top-10,False,False

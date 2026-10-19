@@ -1,0 +1,49 @@
+query,baseline_rank,rerank_rank
+When must a user be forced to change their password?,5.0,1.0
+Is encryption required for one-time codes sent by SMS?,10.0,1.0
+Can passkeys that sync across devices be used at AAL3?,7.0,3.0
+Do users have to change their passwords every 90 days?,5.0,1.0
+Does sending a new OTP reset the failed attempt counter?,5.0,1.0
+What is the reauthentication timeout at AAL1?,6.0,1.0
+What is the inactivity timeout at AAL3?,4.0,1.0
+Is the use of SMS for authentication restricted?,4.0,1.0
+Can a fingerprint alone be used to log in?,3.0,7.0
+What is the inactivity timeout at AAL2?,2.0,3.0
+Can email be used to send one-time login codes?,,
+What is the minimum password length when the password is used together with a second factor?,3.0,2.0
+What is the minimum password length?,3.0,3.0
+How long is a recovery code valid when sent by SMS?,2.0,1.0
+How long is a recovery code mailed abroad valid?,1.0,1.0
+When must notifications be sent to a postal address?,1.0,1.0
+Can a remember-this-device cookie replace logging in?,1.0,1.0
+"Can a website require passwords to contain uppercase letters, digits and symbols?",,
+Can voice recognition be used for authentication?,,
+Are password hints allowed?,,
+Can security questions like the name of your first pet be used?,1.0,1.0
+Should session tokens be stored in browser local storage?,1.0,1.0
+Can an authenticated session switch from https to http?,1.0,1.0
+Is an SMS one-time code phishing-resistant?,,
+How often must a user re-authenticate at AAL3?,3.0,2.0
+What is the maximum session length at AAL2?,4.0,3.0
+How many failed login attempts are allowed before the account is locked?,1.0,1.0
+How many failed fingerprint attempts are allowed?,2.0,1.0
+How long must the salt be when hashing passwords?,2.0,2.0
+How long is an out-of-band code valid?,,
+What false match rate must a biometric system achieve?,3.0,2.0
+What maximum password length should be allowed?,4.0,1.0
+What is the minimum length of a binding code?,2.0,2.0
+How many notification addresses must be supported per account?,1.0,1.0
+What is the minimum length of a challenge nonce?,2.0,1.0
+Can users paste passwords from a password manager?,2.0,2.0
+Is a SIM swap a risk for SMS codes?,,
+Can one phone be registered as an authenticator by several users?,1.0,1.0
+Can an expired authenticator still be used?,1.0,1.0
+Is a fingerprint considered a secret?,1.0,3.0
+Must users be offered an option other than face recognition?,9.0,5.0
+Should session cookies be readable by JavaScript?,1.0,1.0
+Must AAL2 services offer a phishing-resistant option?,2.0,3.0
+Can a session be treated as a higher AAL than the login that created it?,3.0,1.0
+How short can an OTP be truncated?,,
+Can the password be checked against a list of breached passwords?,3.0,4.0
+How long is a binding code valid?,2.0,1.0
+Should biometric data be deleted after authentication?,,

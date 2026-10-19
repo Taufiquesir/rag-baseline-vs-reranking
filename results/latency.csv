@@ -1,0 +1,8 @@
+,mean_ms,median_ms,p95_ms
+Pipeline 1: Bi-Encoder retrieval (query embed + top-10 search),17.8,17.5,23.2
+Pipeline 2: extra Cross-Encoder re-rank (10 pairs),365.7,350.4,489.2
+Pipeline 2: total retrieval (retrieve + re-rank),383.5,368.1,509.4
+"LLM generation, Answer 1",51000.6,50487.6,60171.0
+"LLM generation, Answer 2",51698.1,51869.9,56433.8
+End-to-end Pipeline 1 (retrieval + LLM),51018.3,50505.4,60188.8
+End-to-end Pipeline 2 (retrieval + re-rank + LLM),52081.6,52253.4,56817.3
