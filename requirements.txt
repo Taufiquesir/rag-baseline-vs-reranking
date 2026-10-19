@@ -1,0 +1,14 @@
+# Python 3.10+ ; CPU is enough (a GPU is used automatically if present)
+torch>=2.2
+sentence-transformers>=3.0
+transformers>=4.45
+accelerate>=0.30
+faiss-cpu>=1.8
+pypdf>=4.0
+pandas>=2.0
+numpy>=1.26
+matplotlib>=3.8
+ipykernel>=6.0
+notebook>=7.0
+# optional: only needed if you set GEMINI_API_KEY to use Gemini instead of the local LLM
+google-genai>=1.0

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# local files that are not part of the repository
+*.zip
+RAG_LMA_Assignment_v1.pdf
