@@ -1,8 +1,8 @@
 # RAG Assignment: Baseline Retrieval vs. Cross-Encoder Re-Ranking
 
-**Name:** MD TAUFIQUE HUSSAIN  |  **Roll No.:** 2025202007  |  **Course:** LMA, Assignment 1, IIIT Hyderabad
+**Name:** MD TAUFIQUE HUSSAIN  |  **Roll No.:** 2025202007
 
-**Code:** this repository  |  **Report:** [`Report/RAG_Report.tex`](Report/RAG_Report.tex) (4 pages, LaTeX source)
+**GitHub:** <https://github.com/Taufiquesir/rag-baseline-vs-reranking>  |  **Report:** [`Report/LMA_A1_REPORT.pdf`](Report/LMA_A1_REPORT.pdf) (4 pages), LaTeX source: [`Report/RAG_Report.tex`](Report/RAG_Report.tex)
 
 This repository contains the code for LMA Assignment 1. It builds a small **Retrieval-Augmented Generation (RAG)** system over one long technical PDF and compares two ways of choosing the text that is given to the LLM:
 
@@ -27,7 +27,6 @@ Everything is in one notebook: **[`RAG_Baseline_vs_ReRanking.ipynb`](RAG_Baselin
 8. [How to run](#8-how-to-run)
 9. [Repository layout](#9-repository-layout)
 10. [Configuration you can change](#10-configuration-you-can-change)
-11. [References](#11-references)
 
 ---
 
@@ -274,7 +273,8 @@ RAG_Baseline_vs_ReRanking.ipynb   main notebook: code, explanations, outputs, ob
 README.md                         this file
 requirements.txt                  Python dependencies
 Report/
-  RAG_Report.tex                  the 4 page report (LaTeX source)
+  LMA_A1_REPORT.pdf               the 4 page report (PDF)
+  RAG_Report.tex                  the same report (LaTeX source)
 data/
   NIST_SP_800-63B-4.pdf           the document
 results/                          written by the notebook
@@ -321,14 +321,3 @@ All settings are at the top of the notebook (first code cell after the imports):
 | `LOCAL_LLM` | `Qwen/Qwen2.5-1.5B-Instruct` | Local LLM (used when no Gemini key is set) |
 | `GEMINI_MODEL` | `gemini-2.5-flash` | Gemini model name (used when `GEMINI_API_KEY` is set) |
 | `MAX_NEW_TOKENS` | 160 | Maximum answer length |
-
----
-
-## 11. References
-
-* NIST SP 800-63B-4, *Digital Identity Guidelines: Authentication and Authenticator Management*, July 2025. <https://doi.org/10.6028/NIST.SP.800-63B-4>
-* Reimers & Gurevych (2019), *Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks*. (Bi-Encoder approach)
-* Nogueira & Cho (2019), *Passage Re-ranking with BERT*. (Cross-Encoder re-ranking)
-* Sentence-Transformers documentation: <https://www.sbert.net>
-* FAISS: <https://github.com/facebookresearch/faiss>
-* Qwen2.5 model card: <https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct>
